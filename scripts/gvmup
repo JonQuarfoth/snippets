@@ -1,0 +1,1 @@
+alias gvmup="gvm use grails  `grep app.grails.version application.properties|gawk -F = '{print $2}'`"
